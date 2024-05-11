@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen Juan Carlos Mireles Renaud</title>
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Jeyquery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- toastr -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    
+    <div class="content" style="margin-left: auto;margin-right: auto;padding: 25dvh">
+        <h1>Banco "INVURSA"</h1>
+        <small>Entrada de cadena *maximo 108 caracteres*</small>
+        <h3>Cadena:</h3>
+        <small>Coloce que la logica fuera que leyera una cadena de digitos ya que no sabia que tipo de archivo seria el que vendria en la consola muestro ejemplos de cadenas y deje un js con ello numeros.js</small>
+        <br>
+        <input type="text" id="lineaglobal" maxlength="108">
+        <br>
+        <br>
+        <h3>Numero de Identificador:</h3>
+        <small>Como no supe que numero debe ser el que debe valer supongo que como es 0 el resultado en la validacion deberia ser 0 pero aqui se puede cambiar</small>
+        <br>
+        <input type="number" id="numid" value="0">
+        <br>
+        <br>
+        <div class="row digital" id="numerodigital"></div>
+        <br>
+        <hr>
+        <h3>Resultado:</h3>
+        <p id="resultado">
+            
+                Sin resultado por el momento :c
+            
+        </p>
+        <br>
+        <br>
+        <div>
+            <h1>Datos</h1>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Numero</th>
+                        <th scope="col">Cantidad</th>
+                    </tr>
+                </thead>
+                <tbody id="tabladatos">
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+</body>
+
+<footer>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/numeros.js"></script>
+</footer>
+</html>
